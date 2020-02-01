@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Font Awesome 5 -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Ekko lightbox -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    />
+    <!-- Custom style -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Sabbir Ahmed</title>
+  </head>
+  <body>
+    <!-- ? Start Here -->
+    <!-- container -->
+    <div class="p-0 container">
+      <!-- header section -->
+      <header id="main-header">
+        <!-- full row for image to the left and others to the right -->
+        <div class="row no-gutters">
+          <!-- images to the left with 4 col -->
+          <div class="col-lg-4 col-md-5">
+            <img src="./img/profile.jpg" alt="Profile Pic" />
+          </div>
+
+          <!-- Name and Menu to the right with 8 col -->
+          <div class="col-lg-8 col-md-7">
+            <!-- flex column for displaying name, position and navigation in one after one -->
+            <div class="d-flex flex-column">
+              <div class="p-5 bg-dark text-white">
+                <div
+                  class="d-flex flex-row justify-content-between align-items-center"
+                >
+                  <h1 class="display-4">Sabbir Ahmed</h1>
+
+                  <div class="d-none d-sm-block">
+                    <a href="http://twitter.com" class="text-white">
+                      <i class="fab fa-twitter "></i>
+                    </a>
+                  </div>
+                  <div class="d-none d-md-block mx-md-2">
+                    <a href="http://facebook.com" class="text-white">
+                      <i class="fab fa-facebook "></i>
+                    </a>
+                  </div>
+                  <div class="d-sm-block">
+                    <a href="http://linkedin.com" class="text-white">
+                      <i class="fab fa-linkedin "></i>
+                    </a>
+                  </div>
+                  <div class="d-none d-lg-block">
+                    <a href="http://instagram.com" class="text-white">
+                      <i class="fab fa-instagram "></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Full Stack developer text here -->
+              <div class="bg-black p-4 text-center">
+                Full Stack Web Developer
+              </div>
+
+              <!-- Home, Resume, Work and Contact tabs -->
+              <div
+                class="d-flex flex-row text-white text-center align-items-stretch"
+              >
+                <!-- Home -->
+                <div
+                  class="port-item p-4 bg-primary"
+                  data-toggle="collapse"
+                  data-target="#home"
+                >
+                  <i class="fas fa-home fa-3x d-block" aria-hidden="true"></i>
+                  <span class="d-none d-sm-block">Home</span>
+                </div>
+
+                <!-- Resume -->
+                <div
+                  class="port-item p-4 bg-success"
+                  data-toggle="collapse"
+                  data-target="#resume"
+                >
+                  <i
+                    class="fas fa-graduation-cap fa-3x d-block"
+                    aria-hidden="true"
+                  ></i>
+                  <span class="d-none d-sm-block">Resume</span>
+                </div>
+
+                <!-- Work -->
+                <div
+                  class="port-item p-4 bg-danger"
+                  data-toggle="collapse"
+                  data-target="#work"
+                >
+                  <i
+                    class="fas fa-folder-open fa-3x d-block"
+                    aria-hidden="true"
+                  ></i>
+                  <span class="d-none d-sm-block">Work</span>
+                </div>
+
+                <!-- Contact -->
+                <div
+                  class="port-item p-4 bg-warning"
+                  data-toggle="collapse"
+                  data-target="#contact"
+                >
+                  <i class="fas fa-envelope-open fa-3x" aria-hidden="true"></i>
+                  <span class="d-none d-sm-block">Contact</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- HOME Collapse -->
+      <div id="home" class="collapse show">
+        <div class="card card-body bg-primary text-white p-5">
+          <h2 class="mb-3">Welcome to my page</h2>
+          <p class="lead">
+            I am a passionate Full Stack Web Developer. I love to code and
+            design. I feel satisfied when I see any of my projects get executed
+            on various screens. I deliver beautiful Websites and PSD to HTML5
+            pages using cutting edge Web Development technologies like HTML5,
+            CSS3, JavaScript, React, BootStrap, JQuery, NodeJS, MySQL. Working
+            on pixel perfect websites and writing understandable and commented
+            codes for future support make me different from others.
+
+            <!-- I am a tech enthusiast. I love working on Web development. My
+            emphasized skills are: Javascript, HTML5, CSS3, SCSS, JQuery.
+            Frameworks: React, Bootstrap etc. Rapid responding capability to
+            problems and debugging, enchanting presentation and communication
+            skills make me confident enough to take challenges. -->
+          </p>
+        </div>
+        <div class="card card-body bg-light text-white p-5 text-dark">
+          <h2>My Skills</h2>
+          <p class="lead">
+            My emphasized skills are: Javascript, HTML5, CSS3, SCSS, JQuery.
+            Frameworks: React, Bootstrap etc. For Back End I use: NodeJS,
+            ExpressJS MongoDB, MySQL etc.
+          </p>
+          <hr />
+
+          <h4>JavaScript</h4>
+          <div class="progress mb-3">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-danger "
+              style="width: 75%;"
+            ></div>
+          </div>
+          <h4>JQuery</h4>
+          <div class="progress mb-3">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-warning "
+              style="width: 70%;"
+            ></div>
+          </div>
+          <h4>Bootstrap</h4>
+          <div class="progress mb-3">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-info "
+              style="width: 85%;"
+            ></div>
+          </div>
+          <h4>React</h4>
+          <div class="progress mb-3">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-danger "
+              style="width: 60%;"
+            ></div>
+          </div>
+          <h4>SCSS</h4>
+          <div class="progress mb-3">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-success "
+              style="width: 85%;"
+            ></div>
+          </div>
+          <h4>HTML 5</h4>
+          <div class="progress mb-3">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-primary "
+              style="width: 95%;"
+            ></div>
+          </div>
+          <h4>CSS 3</h4>
+          <div class="progress mb-3">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-success "
+              style="width: 93%;"
+            ></div>
+          </div>
+
+          <h4>MySQL</h4>
+          <div class="progress mb-3">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-info "
+              style="width: 90%;"
+            ></div>
+          </div>
+          <h4>Node.JS</h4>
+          <div class="progress mb-3">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-warning "
+              style="width: 70%;"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RESUME Collapse -->
+      <div id="resume" class="collapse">
+        <div class="card card-body p-5 bg-success text-white">
+          <h1>Where I've worked?</h1>
+          <p class="lead">
+            I've almost a year of solid experience on Web Development. I have
+            built several Web apps and designed many landing pages for both my
+            Clients on Fiverr and on my personal theme selling account on
+            Evantomarket. I have also B.Sc. and M.Sc. degree in CSE.
+          </p>
+        </div>
+
+        <!-- EXPERIENCE -->
+        <h4 class="text-center display-4 p-3 my-4">WORK</h4>
+        <div class="card-deck">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">
+                <img class="img-fluid" src="./img/fiverr.png" alt="fiverr" />
+              </h4>
+              <p class="card-text">
+                I have multiple gigs on Fiverr and I build Web Apps according to
+                Clients requirement. I am a Level X seller on Fiverr with good
+                rating from my clients.
+              </p>
+              <p class="p-2 mb-3 bg-primary text-white">
+                Position: Full Stack Web Developer
+              </p>
+              <p class="p-2 mb-3 bg-primary text-white">
+                URL: fiverr.com/sabbir030
+              </p>
+            </div>
+            <div class="card-footer">
+              <h6 class="text-muted">Dates: 2019-2020</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">
+                <img class="img-fluid" src="./img/evanto.jpg" alt="fiverr" />
+              </h4>
+              <p class="card-text">
+                I design and implement HTML Templates, Landing pages, Themes,
+                Animations and upload it on The marketplace. My created
+                Templates are properly structured and commented so that it can
+                be customized easily.
+              </p>
+              <p class="p-2 mb-3 bg-primary text-white">
+                Position: Theme Developer
+              </p>
+              <p class="p-2 mb-3 bg-primary text-white">
+                URL: fiverr.com/sabbir030
+              </p>
+            </div>
+            <div class="card-footer">
+              <h6 class="text-muted">Dates: 2019-2020</h6>
+            </div>
+          </div>
+        </div>
+
+        <!-- CERTIFICATION -->
+        <h4 class="text-center display-4 p-3 my-4">
+          CERTIFICATIONS
+        </h4>
+        <div class="text-center card-deck d-flex justify-content-around mb-5">
+          <div style="width: 25rem;" class="card">
+            <img class="card-img-top" src="./img/dotnet.jpg" alt="Card image" />
+            <div class="card-body">
+              <h4 class="card-title">Web App development using .NET</h4>
+              <p class="card-text">
+                C#, SQL Server 2012, ASP.NET, MVC.
+              </p>
+              <p class="text-muted">BITM</p>
+              <a
+                target="_blank"
+                href="https://drive.google.com/open?id=1WDlznDu9lJqR2ipWp0Groj6U8CORI9hb"
+                class="btn btn-primary"
+                >Certificate</a
+              >
+            </div>
+          </div>
+          <div style="width: 25rem;" class="card">
+            <img class="card-img-top" src="./img/php.jpg" alt="Card image" />
+            <div class="card-body">
+              <h4 class="card-title">Web App development using PHP</h4>
+              <p class="card-text">
+                PHP, MySQL, HTML5, CSS3.
+              </p>
+              <p class="text-muted">LICT</p>
+              <a
+                href="https://drive.google.com/open?id=1C4J0D3xoUo4gY6kciH5-Ag3jm7PHwq6H"
+                class="btn btn-primary"
+                >Certificate</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- EDUCATION -->
+        <h4 class="text-center display-4 p-3 my-4">EDUCATION</h4>
+        <div class="card-deck text-center mb-5">
+          <div class="card bg-success text-white">
+            <div class="card-body">
+              <h2 class="card-title">
+                B.Sc. in Computer Science and Engineering
+              </h2>
+              <p class="card-text">
+                Daffodil International University
+              </p>
+              <p class="p-2 mb-3">
+                Dhaka, Bangladesh
+              </p>
+            </div>
+            <div class="card-footer">
+              <h6 class="text-white">2012 - 2016</h6>
+            </div>
+          </div>
+          <div class="card bg-success text-white">
+            <div class="card-body">
+              <h2 class="card-title">
+                M.Sc. in Computer Science and Engineering
+              </h2>
+              <p class="card-text">
+                Jahangirnagar University
+              </p>
+              <p class="p-2 mb-3">
+                Dhaka, Bangladesh
+              </p>
+            </div>
+            <div class="card-footer">
+              <h6 class="text-white">2019 - Present</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WORK Collapse -->
+      <div id="work" class="collapse">
+        <div class="card card-body bg-danger text-white p-5">
+          <h2>My Works</h2>
+          <p class="lead">
+            Take a look at some of my completed projects. Most of them are
+            deployed on the web. I've showcased some of my projects below. If
+            you need any more detail, please do let me know.
+          </p>
+        </div>
+        <div class="card card-body p-5">
+          <h3>What Have I Built?</h3>
+          <p class="lead">
+            I was involved in several projects e.g. Organization portfolio,
+            Hosting site, Travel site, Online Ticket booking system, Responsive
+            Image Gallery, Beautiful Landing pages, Tip-calculator, Dice Game
+            and so on.
+          </p>
+          <hr />
+          <div class="row">
+            <div class="col-md-4 my-3">
+              <a href="./img/1.jpg" data-toggle="lightbox">
+                <img class="img-fluid" src="./img/1.jpg" alt="project-1"
+              /></a>
+            </div>
+            <div class="col-md-4 my-3">
+              <a href="./img/0.jpg" data-toggle="lightbox">
+                <img class="img-fluid" src="./img/0.jpg" alt="project-1"
+              /></a>
+            </div>
+            <div class="col-md-4 my-3">
+              <a href="./img/3.jpg" data-toggle="lightbox">
+                <img class="img-fluid" src="./img/3.jpg" alt="project-1"
+              /></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 my-3">
+              <a href="./img/4.jpg" data-toggle="lightbox">
+                <img class="img-fluid" src="./img/4.jpg" alt="project-1"
+              /></a>
+            </div>
+            <div class="col-md-4 my-3">
+              <a href="./img/5.jpg" data-toggle="lightbox">
+                <img class="img-fluid" src="./img/5.jpg" alt="project-1"
+              /></a>
+            </div>
+            <div class="col-md-4 my-3">
+              <a href="./img/6.jpg" data-toggle="lightbox">
+                <img class="img-fluid" src="./img/6.jpg" alt="project-1"
+              /></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 my-3">
+              <a href="./img/7.jpg" data-toggle="lightbox">
+                <img class="img-fluid" src="./img/7.jpg" alt="project-1"
+              /></a>
+            </div>
+            <div class="col-md-4 my-3">
+              <a href="./img/8.jpg" data-toggle="lightbox">
+                <img class="img-fluid" src="./img/8.jpg" alt="project-1"
+              /></a>
+            </div>
+            <div class="col-md-4 my-3">
+              <a href="./img/2.jpg" data-toggle="lightbox">
+                <img class="img-fluid" src="./img/2.jpg" alt="project-1"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT Collapse -->
+      <div id="contact" class="collapse">
+        <div class="card card-body bg-violet text-white p-5">
+          <h2>Get in touch..</h2>
+          <p class="lead"></p>
+          <p>
+            <span class="mr-2"><i class="fas fa-envelope-square"></i></span>
+            sabbirahmedsaif@gmail.com
+          </p>
+
+          <p>
+            <span class="mr-2"><i class="fas fa-mobile-alt"></i></span>
+            +8801703802038
+          </p>
+        </div>
+
+        <div class="card card-body bg-light p-5">
+          <h2>Let's Talk</h2>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            animi doloremque, earum placeat architecto consequatur.
+          </p>
+          <form>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-orange">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Name" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-orange">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="someone@xyz.com"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-orange">
+                    <i class="fas fa-pencil-alt"></i>
+                  </span>
+                </div>
+                <textarea
+                  type="text"
+                  class="form-control"
+                  placeholder="Message"
+                  rows="3"
+                  cols="12"
+                ></textarea>
+              </div>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              class="btn bg-orange btn-block btn-lg"
+            />
+          </form>
+        </div>
+      </div>
+
+      <!-- Main Footer -->
+      <footer id="main-footer" class="p-5 bg-dark text-white">
+        <div class="row">
+          <div class="col">
+            <a
+              href="./resume/Sabbir_Ahmed_Full-Stack-Web-Developer.pdf"
+              download="Resume_of_SABBIR_AHMED"
+              class="btn btn-outline-primary text-white"
+            >
+              <i class="fas fa-cloud"></i>
+              Download Resume
+            </a>
+          </div>
+          <div class="col text-right text-white">
+            <p class="lead">
+              Copyright &copy; <span id="year"></span> Sabbir Ahmed
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- ? End Here -->
+
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- popperJS and Bootstrap -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Ekko lightbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+    <script>
+      //Collapse hide fix for menu
+      $(".port-item").click(function() {
+        $(".collapse").collapse("hide");
+      });
+
+      // Dynamic year for copyright section
+      $("#year").text(new Date().getFullYear());
+
+      //Ekko lightbox
+      $(document).on("click", '[data-toggle="lightbox"]', function(e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+        $(".modal-header").display = "inline-block";
+      });
+    </script>
+  </body>
+</html>

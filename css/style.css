@@ -1,0 +1,34 @@
+#main-header img {
+    width: 100%;
+    height: 100%;
+}
+
+#main-header .port-item {
+    width: 30%;
+}
+
+.port-item:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.bg-violet {
+    background-color: #8e44ad;
+    color: white;
+}
+
+.bg-orange {
+    background-color: orangered;
+    color: white;
+}
+
+@media(min-width: 1120px) {
+    .port-item {
+        padding: 3.2rem !important;
+    }
+}
