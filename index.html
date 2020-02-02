@@ -28,6 +28,26 @@
     <title>Sabbir Ahmed</title>
   </head>
   <body>
+    <!-- !Loading Animation -->
+    <div class="loader">
+      <div class="loader-inner">
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+      </div>
+    </div>
     <!-- ? Start Here -->
     <!-- container -->
     <div class="container p-0">
@@ -451,8 +471,9 @@
         <div class="card card-body bg-light p-5">
           <h2>Let's Talk</h2>
           <p class="lead">
-           Please feel free to ask me anything about your project. I will try my best to help you out.
-           Send me a message so that I can contact you for further. Thanks!
+            Please feel free to ask me anything about your project. I will try
+            my best to help you out. Send me a message so that I can contact you
+            for further. Thanks!
           </p>
           <form>
             <div class="form-group">
@@ -563,6 +584,14 @@
         e.preventDefault();
         $(this).ekkoLightbox();
         $(".modal-header").display = "inline-block";
+      });
+
+      //Loader Animation
+      $(window).on("load", function() {
+        $(".loader")
+          .fadeIn(3000)
+          .delay(3500)
+          .fadeOut("slow");
       });
     </script>
   </body>
