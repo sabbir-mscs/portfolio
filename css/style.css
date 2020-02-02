@@ -32,3 +32,9 @@
         padding: 3.2rem !important;
     }
 }
+
+@media(min-width: 120px) and (max-width: 350px) {
+    #resume .display-4 {
+        font-size: 1.5rem;
+    }
+}
