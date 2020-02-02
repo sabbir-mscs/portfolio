@@ -33,7 +33,17 @@
     }
 }
 
-@media(min-width: 120px) and (max-width: 350px) {
+.clear {
+    overflow: hidden;
+}
+
+@media(min-width: 120px) and (max-width: 375px) {
+
+    #main-header .display-4 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
     #resume .display-4 {
         font-size: 1.5rem;
     }
