@@ -26,6 +26,9 @@
     <!-- WOW Animation -->
     <link rel="stylesheet" href="./css/animate.css" />
 
+    <!-- Animated Heading -->
+    <link rel="stylesheet" href="./css/animated_headline.css" />
+
     <!-- Custom style -->
     <link rel="stylesheet" href="./css/style.css" />
     <title>Sabbir Ahmed</title>
@@ -102,7 +105,16 @@
 
               <!-- Full Stack developer text here -->
               <div class="bg-black p-4 text-center">
-                Full Stack Web Developer
+                <div class="cd-intro">
+                  <h1 class="cd-headline letters type">
+                    <span>I am a</span>
+                    <span class="cd-words-wrapper waiting">
+                      <b class="is-visible">Developer</b>
+                      <b>Freelancer</b>
+                      <b>Designer</b>
+                    </span>
+                  </h1>
+                </div>
               </div>
 
               <!-- Home, Resume, Work and Contact TABS -->
@@ -606,7 +618,8 @@
 
     <!-- Ekko lightbox -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-
+    <!-- Animated Heading  -->
+    <script src="./script/animated_headline.js"></script>
     <script>
       //Collapse hide fix for menu
       $(".port-item").click(function() {
