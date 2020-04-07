@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Inria Sans', sans-serif;
-    background: url('https://s2.best-wallpaper.net/wallpaper/2880x1800/1810/Triangles-combination-geometry-rainbow-colors_2880x1800.jpg');
+    background: url('../img/background/background.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
